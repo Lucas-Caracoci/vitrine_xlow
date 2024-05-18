@@ -19,7 +19,7 @@ body {
     align-items: center;
     margin-bottom: 20px;
     width: 100%;
-    
+    gap: 20px;
     position: relative;
 }
 .layout{
@@ -116,7 +116,7 @@ body {
     background-color: #0056b3;
 }
 
-/* Layouts para Mobile e Desktop */
+
 @media (max-width: 767px) {
     .product-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -125,6 +125,17 @@ body {
     .product-grid.two-columns {
         grid-template-columns: repeat(2, 1fr);
     }
+    .product-card img{
+        max-width: 200px;
+    }
+    .product-card{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .layout{
+        position: static;
+    }
+        
 }
 
 @media (min-width: 768px) {
@@ -135,4 +146,5 @@ body {
     .product-grid.five-columns {
         grid-template-columns: repeat(5, 1fr);
     }
+    
 }
