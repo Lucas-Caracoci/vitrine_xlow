@@ -108,7 +108,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    
+    transition: .5s;
     
 }
 
