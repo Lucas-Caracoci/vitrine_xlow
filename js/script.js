@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     main();
 
     toggleLayoutButton.addEventListener('click', () => {
-        if (window.innerWidth < 768) {
+        if (window.innerWidth < 769) {
             mobileLayout = !mobileLayout;
             productGrid.classList.toggle('two-columns', mobileLayout);
         } else {
