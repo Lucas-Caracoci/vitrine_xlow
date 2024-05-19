@@ -72,7 +72,7 @@ span{
     justify-content: space-around;
     gap: 10px;
     width: calc(100% - 35px);
-    backdrop-filter: blur(20px) saturate(200%);
+    
     
 }
 
